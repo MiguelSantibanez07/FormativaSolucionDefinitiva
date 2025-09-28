@@ -111,3 +111,34 @@ header {
     color: #053477;
 }
 /*Fin de Nuestro Equipo*/
+
+/*Footer*/
+
+.barra {
+    background-color: #F75F1C;
+}
+
+.iconos {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+}
+
+.iconos li {
+    width: 2rem;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+}
+
+.footer-content li {
+    flex-basis: 20%;
+}
+
+.subtitle {
+    border-bottom: solid #F75F1C .1rem;
+    padding-bottom: 1rem;
+}
